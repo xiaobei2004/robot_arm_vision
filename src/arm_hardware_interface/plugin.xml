@@ -1,0 +1,7 @@
+<library path="arm_hardware_interface">
+  <class type="arm_hardware_interface::ArmSystem" base_class_type="hardware_interface::SystemInterface">
+    <description>
+      Arm System Hardware Interface - TCP Socket communication with Raspberry Pi
+    </description>
+  </class>
+</library>

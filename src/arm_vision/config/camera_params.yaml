@@ -1,0 +1,5 @@
+/**:
+  detector:
+    ros__parameters:
+      camera_intrinsics: [640.0, 640.0, 320.0, 240.0]  # fx, fy, cx, cy
+      hand_eye_matrix: [1.0,0,0,0, 0,1,0,0, 0,0,1,0, 0,0,0,1]  # 4x4

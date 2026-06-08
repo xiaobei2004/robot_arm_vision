@@ -1,0 +1,68 @@
+# 编译产物
+build/
+install/
+log/
+
+# Python 缓存
+__pycache__/
+*.pyc
+*.pyo
+
+# 模型权重和图片
+*.pt
+*.pth
+*.onnx
+*.engine
+*.jpg
+*.png
+*.jpeg
+runs/
+
+# 虚拟环境
+venv/
+.venv/
+yolov8/
+
+# IDE 配置
+.vscode/
+.idea/
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 敏感文件
+*.env
+secrets.yaml
+password*
+
+# 备份文件
+*.backup
+*.bak
+
+# 临时日志
+*.log
+
+# URDF 文件（专利保护）
+src/arm_description/urdf/
+src/arm_description/meshes/
+
+# IDE 配置
+.vscode/
+.idea/
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 敏感文件
+*.env
+secrets.yaml
+password*
+
+# 备份文件
+*.backup
+*.bak
+
+# 临时日志
+*.log
